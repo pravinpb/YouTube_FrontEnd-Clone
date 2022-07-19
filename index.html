@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./sidebar.css">
+    <link rel="stylesheet" href="./video.css">
     <title>YouTube</title>
 </head>
 <body class="body">
@@ -19,23 +22,39 @@
             <div class="saerch-button-cont">
                 <button class="saerch-button">
                     <img class="saerch-button-img" src="https://supersimple.dev/public/img/exercises/youtube/icons/search.svg">
+                    <div  class="tooltip">
+                        Search
+                    </div>
                 </button>
             </div>
             <div>
                 <button class="voice-input">
                     <img class="voice-input-img" src="https://supersimple.dev/public/img/exercises/youtube/icons/voice-search-icon.svg" >
+                    <div  class="tooltip">
+                        Voice Search
+                    </div>
                 </button>
             </div>
         </div>
         <div class="icon-section">
-            <div class="create-vedio">
+            <div class="create-video">
                 <img src="https://supersimple.dev/public/img/exercises/youtube/icons/upload.svg">
+                <div class="tooltip">
+                    Create
+                </div>
             </div>
             <div class="apps">
                 <img src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-apps.svg">
+                <div class="tooltip">
+                    Apps
+                </div>
             </div>
             <div class="notifiction-bell">
                 <img src="https://supersimple.dev/public/img/exercises/youtube/icons/notifications.svg">
+                <div class="notification-count">3</div>
+                <div class="tooltip">
+                    Notifications
+                </div>
             </div>
             <div class="user-profile">
                 <img class="profile-photo" src="./me.jpg">
@@ -43,67 +62,63 @@
         </div>
     </div>
     <div class="side-bar">
-        <div class="home-icon">
+        <div class="sidebar-icon"> 
+            <img src="./images/home.svg">
             <div>
-                <img class="home" src="https://supersimple.dev/public/img/exercises/youtube/icons/home.svg">
-            </div>
-            <div class="text">
-                <p>Home</p>
+                Home
             </div>
         </div>
-
-        <div class="explore-icon">
-            <img class="explore" src="https://supersimple.dev/public/img/exercises/youtube/icons/explore.svg">
-            <div class="text">
-                <p>Home</p>
+        <div class="sidebar-icon"> 
+            <img src="./images/explore.svg">
+            <div>
+                Explore
             </div>
-        </div>        
-        
-        <div class="subscriptions-icon">
-            <img class="subscriptions" src="https://supersimple.dev/public/img/exercises/youtube/icons/subscriptions.svg">
-            <div class="text">
-                <p>Home</p>
+        </div>
+        <div class="sidebar-icon"> 
+            <img src="./images/subscriptions.svg">
+            <div>
+                Subscriptions
             </div>
-        </div>        
-        
-        <div class="originals-icon">
-            <img class="originals" src="https://supersimple.dev/public/img/exercises/youtube/icons/originals.svg">
-            <div class="text">
-                <p>Home</p>
+        </div>
+        <div class="sidebar-icon"> 
+            <img src="./images/originals.svg">
+            <div>
+                YouTube Music
             </div>
-        </div>        
-        
-        <div class="ytmusic-icon">
-            <img class="ytmusic" src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-music.svg">
-            <div class="text">
-                <p>Home</p>
+        </div>
+        <div class="sidebar-icon"> 
+            <img src="./images/music.svg">
+            <div>
+                Originals
             </div>
-        </div>        
-        
-        <div class="library-icon">
-            <img class="library" src="https://supersimple.dev/public/img/exercises/youtube/icons/library.svg">
-            <div class="text">
-                <p>Home</p>
+        </div>
+        <div class="sidebar-icon"> 
+            <img src="./images/library.svg">
+            <div>
+                library
             </div>
         </div>
     </div>
     
-    <div class="vedio-grid">
-        <div class="vedio-preview">
+    <div class="video-grid">
+        <div class="video-preview">
             <div class="thumbnail">
                 <a href="https://www.youtube.com/watch?v=Y_ru3l_wyYk" target="_blank"> 
                     <img class="thumbnail" src="./me.jpg">
+                    <div class="video-duration">
+                        4:10        
+                    </div> 
                 </a>
                 </div>
             <div class="info-grid">
                 <div class="channel-picture">
                     <a href="https://www.youtube.com/watch?v=Y_ru3l_wyYk" target="_blank">
-                        <img class="profile-picture" src="./me.jpg" width="50px"> 
+                        <img class="profile-picture" src="./me.jpg" width="50px">
                     </a>
                 </div>
-                <div class="vedio-info">
+                <div class="video-info">
                     <div class="title">
-                        <a class="veido-title" href="https://www.youtube.com/watch?v=Y_ru3l_wyYk" target="_blank">
+                        <a class="video-title" href="https://www.youtube.com/watch?v=Y_ru3l_wyYk" target="_blank">
                             Auto Paavangal | Parithabangal
                         </a>
                     </div>
@@ -119,7 +134,7 @@
                     </div>
                 </div>
             </div>
-        </div><div class="vedio-preview">
+        </div><div class="video-preview">
             <div class="thumbnail">
                 <a href="https://www.youtube.com/watch?v=Y_ru3l_wyYk" target="_blank"> 
                     <img class="thumbnail" src="./me.jpg">
@@ -131,9 +146,9 @@
                         <img class="profile-picture" src="./me.jpg" width="50px"> 
                     </a>
                 </div>
-                <div class="vedio-info">
+                <div class="video-info">
                     <div class="title">
-                        <a class="veido-title" href="https://www.youtube.com/watch?v=Y_ru3l_wyYk" target="_blank">
+                        <a class="video-title" href="https://www.youtube.com/watch?v=Y_ru3l_wyYk" target="_blank">
                             Auto Paavangal | Parithabangal
                         </a>
                     </div>
@@ -149,7 +164,7 @@
                     </div>
                 </div>
             </div>
-        </div><div class="vedio-preview">
+        </div><div class="video-preview">
             <div class="thumbnail">
                 <a href="https://www.youtube.com/watch?v=Y_ru3l_wyYk" target="_blank"> 
                     <img class="thumbnail" src="./me.jpg">
@@ -161,9 +176,9 @@
                         <img class="profile-picture" src="./me.jpg" width="50px"> 
                     </a>
                 </div>
-                <div class="vedio-info">
+                <div class="video-info">
                     <div class="title">
-                        <a class="veido-title" href="https://www.youtube.com/watch?v=Y_ru3l_wyYk" target="_blank">
+                        <a class="video-title" href="https://www.youtube.com/watch?v=Y_ru3l_wyYk" target="_blank">
                             Auto Paavangal | Parithabangal
                         </a>
                     </div>
@@ -179,7 +194,7 @@
                     </div>
                 </div>
             </div>
-        </div><div class="vedio-preview">
+        </div><div class="video-preview">
             <div class="thumbnail">
                 <a href="https://www.youtube.com/watch?v=Y_ru3l_wyYk" target="_blank"> 
                     <img class="thumbnail" src="./me.jpg">
@@ -191,9 +206,9 @@
                         <img class="profile-picture" src="./me.jpg" width="50px"> 
                     </a>
                 </div>
-                <div class="vedio-info">
+                <div class="video-info">
                     <div class="title">
-                        <a class="veido-title" href="https://www.youtube.com/watch?v=Y_ru3l_wyYk" target="_blank">
+                        <a class="video-title" href="https://www.youtube.com/watch?v=Y_ru3l_wyYk" target="_blank">
                             Auto Paavangal | Parithabangal
                         </a>
                     </div>
@@ -209,7 +224,7 @@
                     </div>
                 </div>
             </div>
-        </div><div class="vedio-preview">
+        </div><div class="video-preview">
             <div class="thumbnail">
                 <a href="https://www.youtube.com/watch?v=Y_ru3l_wyYk" target="_blank"> 
                     <img class="thumbnail" src="./me.jpg">
@@ -221,9 +236,9 @@
                         <img class="profile-picture" src="./me.jpg" width="50px"> 
                     </a>
                 </div>
-                <div class="vedio-info">
+                <div class="video-info">
                     <div class="title">
-                        <a class="veido-title" href="https://www.youtube.com/watch?v=Y_ru3l_wyYk" target="_blank">
+                        <a class="video-title" href="https://www.youtube.com/watch?v=Y_ru3l_wyYk" target="_blank">
                             Auto Paavangal | Parithabangal
                         </a>
                     </div>
@@ -239,7 +254,7 @@
                     </div>
                 </div>
             </div>
-        </div><div class="vedio-preview">
+        </div><div class="video-preview">
             <div class="thumbnail">
                 <a href="https://www.youtube.com/watch?v=Y_ru3l_wyYk" target="_blank"> 
                     <img class="thumbnail" src="./me.jpg">
@@ -251,9 +266,9 @@
                         <img class="profile-picture" src="./me.jpg" width="50px"> 
                     </a>
                 </div>
-                <div class="vedio-info">
+                <div class="video-info">
                     <div class="title">
-                        <a class="veido-title" href="https://www.youtube.com/watch?v=Y_ru3l_wyYk" target="_blank">
+                        <a class="video-title" href="https://www.youtube.com/watch?v=Y_ru3l_wyYk" target="_blank">
                             Auto Paavangal | Parithabangal
                         </a>
                     </div>

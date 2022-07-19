@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap');
+
+.video-preview{
+    max-width: 400px;
+}
+.thumbnail{
+    width: 100%;
+    transition: 0.15s;
+    position: relative;
+    transition: 3s ease transform;
+}
+.thumbnail:hover{
+    opacity: 0.9;
+}
+
+
+.info-grid{
+    display: grid;
+    grid-template-columns: 70px 1fr;
+}
+
+.video-title{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 1000;
+    line-height: 20px;
+    cursor: pointer;
+    width: 300px;
+    text-decoration: none;
+}
+.video-title:hover{
+    opacity: 0.7;
+}
+
+.channel-name{
+    font-family: 'Roboto', Arial, sans-serif;
+    color:rgb(96, 96, 96) ;
+    width: 300px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.channel-name:hover{
+    opacity: 0.7;
+}
+
+.views-stst{
+    box-sizing: border-box;
+    color: rgb(96, 96, 96);
+    font-size: 10px;
+    font-family:'Roboto', Arial, sans-serif ;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 0;
+    width: 300px;
+    font-size: small;
+}
+
+
+.channel-picture{
+    width: 50px;
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.profile-picture{
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+}
+
+.video-duration{
+    font-family:'Roboto', Arial, sans-serif ;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 8px;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 15px;
+    right:15px;
+}
+
+
+
+.title{
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.name{
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+.views{
+    padding-top: 2px;
+}
+.video-info{
+    width: 300px;
+    display: inline-block;
+}
