@@ -13,3 +13,21 @@
     padding-left: 120px;
     background-color: rgb(247, 247, 247);
 }
+
+@media  (max-width: 1150px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width : 1150px) and (max-width: 1700px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1700px) {
+    .video-grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

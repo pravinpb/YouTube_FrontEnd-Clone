@@ -19,9 +19,24 @@
     z-index: 100;
 }
 .logo-section{
-    background-color: lightblue;
+    display: grid;
     width: 350px;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
 }
+.menu{
+    margin-left: 25px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+.logo{
+    width: 160px;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
 .searchbar-section{
 
     display: flex;
@@ -31,6 +46,7 @@
     margin-left: 30px;
     margin-right: 15px;
     width: 100%;
+    max-width: 700px;
 
 }.search-bar{
     flex: 1;
@@ -86,7 +102,9 @@
     align-items: center;
     justify-content: space-between;
     flex-shrink: 0;
+
 }
+
 .user-profile{
     border-radius: 1000px;
     overflow: hidden;
@@ -98,13 +116,18 @@
 }
 .create-video{
     width: 30px;
+    position: relative;
+    cursor: pointer;
 }
 .apps{
     width: 30px;
+    position: relative;
+    cursor: pointer;
 }
 .notifiction-bell{
     width: 30px;
     position: relative;
+    cursor: pointer;
 }
 .notification-count{
     position: absolute;
@@ -128,8 +151,8 @@
 .saerch-button .tooltip,
 .voice-input .tooltip,
 .notifiction-bell .tooltip,
-.apps .tooltip,
-.create-video .tooltip{
+.create-video .tooltip,
+.apps .tooltip{
     position: absolute;
     background-color: gray;
     color: white;
@@ -157,5 +180,5 @@
 .notifiction-bell:hover .tooltip,
 .apps:hover .tooltip,
 .create-video:hover .tooltip{
-    opacity: 0.6;
+    opacity: 1;
 }
